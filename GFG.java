@@ -151,7 +151,7 @@ public class GFG {
 	}
 }
 
-
+// Node implements Comparator so the priority queue knows how to compare and get the minimal value
 class Node implements Comparator<Node> {
 
 	public int node; // Node Number
